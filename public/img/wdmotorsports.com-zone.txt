@@ -1,0 +1,6 @@
+$ORIGIN wdmotorsports.com.
+$TTL 1800
+wdmotorsports.com. IN SOA ns1.digitalocean.com. hostmaster.wdmotorsports.com. 1666388997 10800 3600 604800 1800
+wdmotorsports.com. 1800 IN NS ns1.digitalocean.com.
+wdmotorsports.com. 1800 IN NS ns2.digitalocean.com.
+wdmotorsports.com. 1800 IN NS ns3.digitalocean.com.

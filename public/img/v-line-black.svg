@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 130" width="21" height="130">
+	<title>New Project</title>
+	<defs>
+		<image  width="21" height="130" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAACCAQMAAACTuhEuAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAPSURBVHicY2AYBaOAgQEAAggAAelK9ccAAAAASUVORK5CYII="/>
+		<image  width="21" height="130" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAACCCAMAAACeqnNfAAAAAXNSR0IB2cksfwAAAdFQTFRFirjWFyIqMkdTAAAAhbjWh7bVMkVSjbvVMkdSirrVMUVTiLjUMUNRiL7ZMENRi7zYMENPjrvXL0NPi7/cMEJPiL7bL0JNjLzbLUFNj8HaLj9MjL/fLT5LLD9KkMTejcPdKz1JkcHjKj1JisHjjsbcKj1IjsbjKTxHksXij8PhKjpGk8HgKTlFj8fnKTlDj8ffKDhDlMXmJzhDkMPmKDhDlcrlJzdBksjkJTdBJTZAl8bjjsbjJDQ/k87rmczrIzM+j8zrlcrqIzM+IzE8l9HoIjE8otH/IC44S2l8iLvXIS45TGp7Hi02UHCBHSs0UG+BgrXRHCgyVHSIhLLMGycvfK7JGiYvW3+SeKbDYIaZGCUtZIuidqO+GCMsZImfc565FyIraJKocJqzFyIqaI+obZSsbZesaI+lZIufc6G5XH6VWXqPdKG6YYaccp+3Y4aeZoujbpeycp62ZpKoc5+8eaXBgLHKUnSIhLLRh7nSHCs0TGh7hbfYSGR2////ibvaRV9wgP//i8HgIjE7QVtrqv//PVZmgL//O1JhqtX/ks7nN05cn9//nNXxLT9MNklXmcz/MUZTMkdUldXqmczyHis0mczukMjpIzI8m8jpIjI8Sc8sFQAAAJt0Uk5TMv/NADIxzjHOMM8v0C/QLtEt0izTK9Qq1SnWKNfYJybZJdolJNsk3CMi3SHeIN8g4B/hHuEd4hzj5Bsb5RoZ5hkY5+gW6AvunC3tnfCW85Y39Y8890L5gUh4+3BO/HBU/Wlb/mliYmlwVH+GUXZVdGxdV2lQSj6PODPznS6kASmrAiHqsQO3BL0GFcMIEtbICs3MDBTyDxfpF+nGS+MgAAABp0lEQVR4nO3TV1OTURAG4O9lI9KVjhUFBYQAUhJEVALWhF4MIRD5DEUFVBSUYgEBpYsgivprnTGgydl15mSccbjIXj4XO+/uzhoGooiVYRH1EKIFPYwYQWMRJ2g8EgRNRJKgR3BUW5ORoq2pSBM0HRnamoksbT2G49p6AidFPSXoaVGzcUZbzyJH0FxRz+G8oHnIF7RA1Aso1NYiWLW1GCWCluKioGV/0XJBK1ApqA12ba3CJVGrBb0sag2uCHpV1GuoFdQhah3qRb0u6A3cFPTWbdzhSk4XGriSsxFNXMnSjBau1NqGdq7U0RnKAaW7bnRxJY8b3VzJ40UPV+r14R5X6jNxnyv5+zHAlQaBIa70AP1+rjQA08+VHsJ8xJWG4evjSiPAKNfHwBOmT2HyDmO/sin6LDBHqD43Mc6mmPDtbTNYX3j3DxKkL92YJFWn2v7c/7dOz+AVqfq6EW/eqjrrwtw7UnR+AYvvSVGbHR+WSFGHFcsrpOhqDtbWSdGNj9j8RKpuYfszqbqDL19VJGMX3xiGp9//uUNEI3rw9EcY+j+Tif/2E7oAioOHlx1lAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+	<use id="Layer 1" href="#img2" x="0" y="0" />
+</svg>
