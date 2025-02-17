@@ -143,7 +143,7 @@ const Contact = () => {
               </div>
               <div className="border-t-2 border-white w-full mt-2 xl:mt-8 2xl:mt-12 pt-3 hidden lg:grid xl:flex justify-between font-secondary text-white text-xs 2xl:text-sm uppercase">
                 <p>© {new Date().getFullYear()} CxLT</p>
-                <ul className="flex gap-4 mt-2 xl:mt-0">
+                {/* <ul className="flex gap-4 mt-2 xl:mt-0">
                   <li>
                     <a
                       href="https://www.instagram.com/adeo.group/"
@@ -184,7 +184,7 @@ const Contact = () => {
                       Linkedin
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>
@@ -386,7 +386,7 @@ const Contact = () => {
         </div>
         <div className="p-6 font-secondary text-white text-xs uppercase">
           <p className="mb-5">© {new Date().getFullYear()} CxLT</p>
-          <ul className="flex gap-4">
+          {/* <ul className="flex gap-4">
             <li>
               <a href="#" className="href-scale">
                 Instagram
@@ -432,7 +432,7 @@ const Contact = () => {
                 Viemo
               </a>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>
