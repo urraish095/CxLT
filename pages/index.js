@@ -16,7 +16,7 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>Adeo Tech FZCO</title>
+        <title>CxLT Agency</title>
         <meta name="description" content="Adeo Tech FZCO" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
