@@ -3,4 +3,4 @@ RewriteEngine On
 #RewriteCond %{HTTP_HOST} !^www\. [NC] 
 #RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L] 
 RewriteBase /
-RewriteRule ^(.*)?$ http://127.0.0.1:3000/$1 [P,L]
+RewriteRule ^(.*)?$ http://127.0.0.1:3014/$1 [P,L]
