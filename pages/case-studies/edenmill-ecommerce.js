@@ -8,8 +8,8 @@ const Edenmill = () => {
   return (
     <>
       <Head>
-        <title>Edenmill Ecommerce Case Study - Adeo Tech FZCO</title>
-        <meta name="description" content="Adeo Tech FZCO" />
+        <title>Edenmill Ecommerce Case Study - CxLT</title>
+        <meta name="description" content="CxLT" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
