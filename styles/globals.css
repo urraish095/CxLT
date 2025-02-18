@@ -127,8 +127,8 @@ body::-webkit-scrollbar {
     padding: 20px;
   }
   .set-h-img{
-    height: 210px;
-    background-size: 100% !important;
+    height: 275px;
+    background-size: 128% !important;
   }
 }
 @media only screen and (max-width: 1024px) {
