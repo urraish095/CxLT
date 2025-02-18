@@ -199,8 +199,8 @@ const Contact = () => {
           <h5 className="font-primary text-5xl text-white block sm:hidden">
             Want those outcomes?
           </h5>
-          <h2 className="font-secondary text-primary orange-scale text-3xl xl:text-4xl 2xl:text-5xl font-light hidden sm:block">
-            Want those <br className="hidden xl:block" /> outcomes?
+          <h2 className="font-secondary text-primary orange-scale mb-4 text-3xl xl:text-4xl 2xl:text-5xl font-light hidden sm:block">
+            Want those outcomes?
           </h2>
 
           <iframe
