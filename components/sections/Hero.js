@@ -149,7 +149,7 @@ const Hero = () => {
           ref={rights}
         >
           <p className="mb-10">© {new Date().getFullYear()} CxLT</p>
-          <div className="w-full flex justify-start items-end uppercase gap-5">
+          {/* <div className="w-full flex justify-start items-end uppercase gap-5">
             <a
               href="https://www.instagram.com/adeo.group/"
               target="_blank"
@@ -190,7 +190,7 @@ const Hero = () => {
             >
               Vimeo
             </a>
-          </div>
+          </div> */}
         </div>
 
         <button
