@@ -272,7 +272,7 @@ const Edenmill = () => {
         </section>
 
         {/* Section 6 - Contact */}
-        <section id="panel-5" className="scroll-panel">
+        <section id="panel-6" className="scroll-panel">
           <div className="lg:h-screen lg:w-screen bg-secondary grid lg:grid-cols-8">
             <div className="lg:col-span-3 hidden lg:flex justify-end items-end pt-36">
               <img src="/img/eden-mobile.png" className="h-full" alt="" />

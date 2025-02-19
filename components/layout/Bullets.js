@@ -25,26 +25,25 @@ const Bullets = () => {
         const targetElem = document.querySelector(this.getAttribute("data-id"));
         const panelsContainer = document.querySelector(".scroll-container");
 
-        const containerOffset =
+        const containerOffset = 
           dataPanel == 1
-            ? panelsSection.offsetTop + targetElem.offsetLeft - 0
+            ? 0
             : dataPanel == 2
-            ? panelsSection.offsetTop + targetElem.offsetLeft - 1100
+            ? 1100
             : dataPanel == 3
-            ? panelsSection.offsetTop + targetElem.offsetLeft + 1250
+            ? 4750
             : dataPanel == 4
-            ? panelsSection.offsetTop + targetElem.offsetLeft + 4600
+            ? 9260
             : dataPanel == 5
-            ? panelsSection.offsetTop + targetElem.offsetLeft + 9700
+            ? 12300
             : dataPanel == 6
-            ? panelsSection.offsetTop + targetElem.offsetLeft + 14100
+            ? 15855
             : dataPanel == 7
-            ? panelsSection.offsetTop + targetElem.offsetLeft + 18800
+            ? 19000
             : dataPanel == 8
-            ? panelsSection.offsetTop + targetElem.offsetLeft + 24000
+            ? 23708
             : null;
-
-        gsap.to(window, {
+        gsap.to(window, { 
           scrollTo: {
             y: containerOffset,
             autoKill: false,
@@ -54,6 +53,17 @@ const Bullets = () => {
             setActiveIndex(dataPanel);
           },
         });
+        
+        // gsap.to(window, {
+        //   scrollTo: {
+        //     y: containerOffset,
+        //     autoKill: false,
+        //   },
+        //   duration: 1.5,
+        //   onComplete: () => {
+        //     setActiveIndex(dataPanel);
+        //   },
+        // });
       });
     });
   }, [setActiveIndex]);

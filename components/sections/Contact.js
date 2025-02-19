@@ -206,15 +206,12 @@ const Contact = () => {
           <iframe
             id="JotFormIFrame-230502718941049"
             title="Form"
-            onload="window.parent.scrollTo(0,0)"
-            allowtransparency="true"
-            allowfullscreen="true"
             allow="geolocation; microphone; camera"
             src="https://form.jotform.com/250434254541046"
-            frameborder="0"
+            frameBorder="0"
             style={{
-              "min-width": "100%",
-              "max-width": "100%",
+              "minWidth": "100%",
+              "maxWidth": "100%",
               height: "639px",
               border: "none",
             }}
