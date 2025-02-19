@@ -58,13 +58,13 @@ const Layout = ({ children, ...props }) => {
     });
 
     if (props.preloader) {
-      gsap.to("#AdeoFilling stop", {
-        duration: 2,
-        attr: { offset: "0%" },
-        yoyo: true,
-        repeatDelay: 0.5,
-        ease: "none",
-      });
+      // gsap.to("#AdeoFilling stop", {
+      //   duration: 2,
+      //   attr: { offset: "0%" },
+      //   yoyo: true,
+      //   repeatDelay: 0.5,
+      //   ease: "none",
+      // });
 
       gsap.to(preloader.current, {
         delay: props.preloaderDelay,
@@ -179,6 +179,9 @@ const Layout = ({ children, ...props }) => {
               xPercent: -(100 * stop),
               duration: stop,
             });
+
+
+            console.log(currentSection)
 
             // Slogan Section Animation
             if (currentSection.querySelector(".slogan-animation")) {
