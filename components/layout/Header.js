@@ -349,7 +349,7 @@ const Header = ({ ...props }) => {
             </span>
           </button>
 
-          <div className="w-full absolute bottom-0 left-0 text-xs font-secondary font-light tracking-wider flex justify-center items-end uppercase gap-5 text-white -mb-12">
+          {/* <div className="w-full absolute bottom-0 left-0 text-xs font-secondary font-light tracking-wider flex justify-center items-end uppercase gap-5 text-white -mb-12">
             <a
               href="https://www.instagram.com/adeo.group/"
               target="_blank"
@@ -390,7 +390,7 @@ const Header = ({ ...props }) => {
             >
               Vimeo
             </a>
-          </div>
+          </div> */}
         </nav>
       </div>
 
