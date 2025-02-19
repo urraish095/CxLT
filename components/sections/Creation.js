@@ -23,7 +23,7 @@ const Creation = () => {
                 className="text-[1.5rem] 2xl:text-[1.8rem] font-light tracking-wide leading-[3rem]"
               >
                  
-                 Drive demand. <strong className="font-bold">story</strong>Dominate digital.
+                 Drive demand. Dominate digital.
               </p>
             </div>
           </div>
