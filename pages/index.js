@@ -20,8 +20,9 @@ const index = () => {
         <title>CxLT Agency</title>
         <meta name="description" content="CxLT" />
         <link rel="icon" href="/favicon.ico" />
+      </Head>
 
-        <Script async src="https://www.facebook.com/tr?id=1303973084161841&ev=PageView&noscript=1"></Script>
+      <Script async src="https://www.facebook.com/tr?id=1303973084161841&ev=PageView&noscript=1"></Script>
         <Script id="meta">
         {`
         !function(f,b,e,v,n,t,s)
@@ -37,8 +38,6 @@ const index = () => {
               fbq('track', 'ViewContent');
         `}
       </Script>
-
-      </Head>
 
       <Layout preloaderDelay={2.5} preloader={true} pageTransition={false} bullets={true}>
         {/* Section 1 - Hero */}
