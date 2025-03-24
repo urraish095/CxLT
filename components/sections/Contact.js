@@ -1,5 +1,5 @@
 import React from "react";
-
+import ContactForm from "./form";
 const Contact = () => {
   return (
     <div
@@ -191,19 +191,19 @@ const Contact = () => {
         </div>
         <div
           id="c-section-2"
-          className="w-full lg:h-screen lg:grid bg-secondary lg:content-start p-10 lg:pt-24 xl:pt-32 2xl:pt-40 lg:pb-14 2xl:pb-20 lg:pl-28 2xl:pl-40 lg:pr-28 lg:translate-x-[85%]"
+          className="w-full lg:h-screen lg:grid bg-secondary lg:content-start p-10 lg:pt-24 xl:pt-32 2xl:pt-40 lg:pb-14 2xl:pb-20 lg:pl-28 2xl:pl-20 lg:pr-28 lg:translate-x-[85%]"
         >
-          <p className="text-primary font-secondary mb-3 text-lg font-bold block sm:hidden">
+          {/* <p className="text-primary font-secondary mb-3 text-lg font-bold block sm:hidden">
             <span className="text-2xl">06.</span> Contact Us
-          </p>
+          </p> */}
           <h5 className="font-primary text-5xl text-white block sm:hidden">
             Want those outcomes?
           </h5>
           <h2 className="font-secondary text-primary orange-scale mb-4 text-3xl xl:text-4xl 2xl:text-5xl font-light hidden sm:block">
             Want those outcomes?
           </h2>
-
-          <iframe
+          <ContactForm />
+          {/* <iframe
             id="JotFormIFrame-230502718941049"
             title="Form"
             allow="geolocation; microphone; camera"
@@ -216,7 +216,7 @@ const Contact = () => {
               border: "none",
             }}
             scrolling="no"
-          ></iframe>
+          ></iframe> */}
 
           {/* <form
             action=""
