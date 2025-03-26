@@ -31,6 +31,17 @@ export default function ContactForm() {
             if (result.success) {
                 event.target.reset();
                 setSuccessMessage("Your message has been sent successfully!");
+                fbq('track', 'Lead', {
+                    content_name: 'Contact Form Submission',
+                    content_category: 'Lead Generation',
+                    email: formData.email,
+                    name: formData.first_name + formData.last_name,
+                  });
+        
+                  fbq('track', 'Contact', {
+                    email: formData.email,
+                    name: formData.first_name + formData.last_name,
+                  });
             }
         } catch (error) {
             console.error("Error submitting form", error);
