@@ -915,10 +915,10 @@ const Layout = ({ children, ...props }) => {
 
       {/* Video Modal */}
       <ModalVideo
-        channel="vimeo"
-        autoplay
+        channel="youtube"
+        autoplay="true"
         isOpen={isOpen}
-        videoId="338277203"
+        videoId="i98b7nIYHVk"
         onClose={() => setOpen(false)}
       />
 

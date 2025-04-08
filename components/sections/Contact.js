@@ -30,7 +30,7 @@ const Contact = () => {
             className="lg:row-span-2 hidden sm:grid lg:flex lg:items-end lg:translate-x-full lg:opacity-0"
           >
             <div className="w-full">
-              <h6 className="font-secondary mt-10 lg:mt-5 xl:mt-0 text-sm xl:text-base 2xl:text-lg text-white font-bold uppercase">
+              <h6 className="font-secondary mt-10 lg:mt-5 xl:mt-0 text-sm xl:text-base 2xl:text-lg text-white font-bold">
               CxLT
               </h6>
               <div className="grid lg:flex mt-0 xl:mt-4 2xl:mt-8">
@@ -111,7 +111,7 @@ const Contact = () => {
                     </g>
                   </svg>
                   <p className="font-secondary text-white text-xs 2xl:text-base ml-6">
-                  108 North Ormsby Road, Middlesbrough TS4 2AG 
+                  Central Point, 202-206 Linthorpe Rd, Middlesbrough TS1 3QW 
                   </p>
                 </a>
                 <a
@@ -363,7 +363,7 @@ const Contact = () => {
               </svg>
               <div className="col-span-5">
                 <a href="#" className="block font-secondary text-white text-xs">
-                108 North Ormsby Road, Middlesbrough TS4 2AG 
+                Central Point, 202-206 Linthorpe Rd, Middlesbrough TS1 3QW 
                 </a>
                 <a
                   href="tel:01642 133 175"
