@@ -2,7 +2,6 @@ import React from "react";
 import Head from "next/head";
 import Script from 'next/script'
 
-// Components
 import Layout from "../components/layout/Layout";
 import Hero from "../components/sections/Hero";
 import Slogan from "../components/sections/Slogan";
@@ -23,7 +22,7 @@ const index = () => {
       </Head>
 
       <Script async src="https://www.facebook.com/tr?id=1303973084161841&ev=PageView&noscript=1"></Script>
-        <Script id="meta">
+      <Script id="meta">
         {`
         !function(f,b,e,v,n,t,s)
               {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -38,6 +37,31 @@ const index = () => {
               fbq('track', 'ViewContent');
         `}
       </Script>
+      <Script id="linkedin-tag">
+        {`
+          window._linkedin_partner_id = "7009842";
+          window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+          window._linkedin_data_partner_ids.push(window._linkedin_partner_id);
+
+          (function(l) {
+            if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+            window.lintrk.q=[]}
+            var s = document.getElementsByTagName("script")[0];
+            var b = document.createElement("script");
+            b.type = "text/javascript";
+            b.async = true;
+            b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+            s.parentNode.insertBefore(b, s);
+          })(window.lintrk);
+
+          window.lintrk('track', { conversion_id: 20452266 });
+        `}
+      </Script>
+
+      {/* LinkedIn noscript fallback */}
+      <noscript>
+        <img height="1" width="1" style={{display: 'none'}} alt="" src="https://px.ads.linkedin.com/collect/?pid=7009842&fmt=gif" />
+      </noscript>
 
       <Layout preloaderDelay={2.5} preloader={true} pageTransition={false} bullets={true}>
         {/* Section 1 - Hero */}
