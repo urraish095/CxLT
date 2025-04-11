@@ -1,5 +1,7 @@
 import React from "react";
 import ContactForm from "./form";
+
+import Image from "next/image";
 const Contact = () => {
   return (
     <div
@@ -151,7 +153,12 @@ const Contact = () => {
                       rel="noreferrer"
                       className="href-scale"
                     >
-                      Instagram
+                      <Image
+                    src={"/img/instagram.png"}
+                    height={30}
+                    width={30}
+                    alt=""
+                  />
                     </a>
                   </li>
                   <li>
@@ -161,7 +168,12 @@ const Contact = () => {
                       rel="noreferrer"
                       className="href-scale"
                     >
-                      Facebook
+                      <Image
+                    src={"/img/facebook.png"}
+                    height={30}
+                    width={30}
+                    alt=""
+                  />
                     </a>
                   </li>
                   <li>
@@ -171,7 +183,13 @@ const Contact = () => {
                       rel="noreferrer"
                       className="href-scale"
                     >
-                      Linkedin
+                      <Image
+                    src={"/img/linkedin.png"}
+                    height={30}
+                    width={30}
+                    alt=""
+                  />
+                      
                     </a>
                   </li>
                   <li>
@@ -181,7 +199,12 @@ const Contact = () => {
                       rel="noreferrer"
                       className="href-scale"
                     >
-                      Youtube
+                      <Image
+                    src={"/img/youtube.png"}
+                    height={30}
+                    width={30}
+                    alt=""
+                  />
                     </a>
                   </li>
                 </ul>
@@ -385,45 +408,66 @@ const Contact = () => {
           <p className="mb-5">© {new Date().getFullYear()} CxLT</p>
            <ul className="flex gap-4">
            <li>
-              <a
-                href="https://www.instagram.com/cxlt.agency/"
-                target="_blank"
-                rel="noreferrer"
-                className="href-scale"
-              >
-                Instagram
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/cxlt.agency"
-                target="_blank"
-                rel="noreferrer"
-                className="href-scale"
-              >
-                Facebook
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/company/cxlt-agency/"
-                target="_blank"
-                rel="noreferrer"
-                className="href-scale"
-              >
-                Linkedin
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/@CxLTAgency"
-                target="_blank"
-                rel="noreferrer"
-                className="href-scale"
-              >
-                Youtube
-              </a>
-            </li>
+                    <a
+                      href="https://www.instagram.com/cxlt.agency/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="href-scale"
+                    >
+                      <Image
+                    src={"/img/instagram.png"}
+                    height={30}
+                    width={30}
+                    alt=""
+                  />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.facebook.com/cxlt.agency"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="href-scale"
+                    >
+                      <Image
+                    src={"/img/facebook.png"}
+                    height={30}
+                    width={30}
+                    alt=""
+                  />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/company/cxlt-agency/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="href-scale"
+                    >
+                      <Image
+                    src={"/img/linkedin.png"}
+                    height={30}
+                    width={30}
+                    alt=""
+                  />
+                      
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/@CxLTAgency"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="href-scale"
+                    >
+                      <Image
+                    src={"/img/youtube.png"}
+                    height={30}
+                    width={30}
+                    alt=""
+                  />
+                    </a>
+                  </li>
           </ul>
         </div>
       </div>
