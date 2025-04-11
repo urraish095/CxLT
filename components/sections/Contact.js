@@ -181,7 +181,7 @@ const Contact = () => {
                       rel="noreferrer"
                       className="href-scale"
                     >
-                      Twitter
+                      Youtube
                     </a>
                   </li>
                 </ul>
