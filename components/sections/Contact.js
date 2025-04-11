@@ -143,10 +143,10 @@ const Contact = () => {
               </div>
               <div className="border-t-2 border-white w-full mt-2 xl:mt-8 2xl:mt-12 pt-3 hidden lg:grid xl:flex justify-between font-secondary text-white text-xs 2xl:text-sm uppercase">
                 <p>© {new Date().getFullYear()} CxLT</p>
-                {/* <ul className="flex gap-4 mt-2 xl:mt-0">
+                 <ul className="flex gap-4 mt-2 xl:mt-0">
                   <li>
                     <a
-                      href="https://www.instagram.com/adeo.group/"
+                      href="https://www.instagram.com/cxlt.agency/"
                       target="_blank"
                       rel="noreferrer"
                       className="href-scale"
@@ -156,17 +156,7 @@ const Contact = () => {
                   </li>
                   <li>
                     <a
-                      href="https://twitter.com/adeogroup"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="href-scale"
-                    >
-                      Twitter
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.facebook.com/adeogroup"
+                      href="https://www.facebook.com/cxlt.agency"
                       target="_blank"
                       rel="noreferrer"
                       className="href-scale"
@@ -176,7 +166,7 @@ const Contact = () => {
                   </li>
                   <li>
                     <a
-                      href="https://www.linkedin.com/company/adeo-group"
+                      href="https://www.linkedin.com/company/cxlt-agency/"
                       target="_blank"
                       rel="noreferrer"
                       className="href-scale"
@@ -184,7 +174,17 @@ const Contact = () => {
                       Linkedin
                     </a>
                   </li>
-                </ul> */}
+                  <li>
+                    <a
+                      href="https://www.youtube.com/@CxLTAgency"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="href-scale"
+                    >
+                      Twitter
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -383,25 +383,20 @@ const Contact = () => {
         </div>
         <div className="p-6 font-secondary text-white text-xs uppercase">
           <p className="mb-5">© {new Date().getFullYear()} CxLT</p>
-          {/* <ul className="flex gap-4">
-            <li>
-              <a href="#" className="href-scale">
+           <ul className="flex gap-4">
+           <li>
+              <a
+                href="https://www.instagram.com/cxlt.agency/"
+                target="_blank"
+                rel="noreferrer"
+                className="href-scale"
+              >
                 Instagram
               </a>
             </li>
             <li>
               <a
-                href="https://twitter.com/adeogroup"
-                target="_blank"
-                rel="noreferrer"
-                className="href-scale"
-              >
-                Twitter
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/adeogroup"
+                href="https://www.facebook.com/cxlt.agency"
                 target="_blank"
                 rel="noreferrer"
                 className="href-scale"
@@ -411,7 +406,7 @@ const Contact = () => {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/company/adeo-group"
+                href="https://www.linkedin.com/company/cxlt-agency/"
                 target="_blank"
                 rel="noreferrer"
                 className="href-scale"
@@ -421,15 +416,15 @@ const Contact = () => {
             </li>
             <li>
               <a
-                href="https://vimeo.com/adeovideo"
+                href="https://www.youtube.com/@CxLTAgency"
                 target="_blank"
                 rel="noreferrer"
                 className="href-scale"
               >
-                Viemo
+                Youtube
               </a>
             </li>
-          </ul> */}
+          </ul>
         </div>
       </div>
     </div>
