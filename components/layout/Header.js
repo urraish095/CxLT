@@ -331,23 +331,15 @@ const Header = ({ ...props }) => {
             </span>
           </button>
 
-          <button
-            data-id="#panel-8"
-            data-panel="8"
-            className="anchor group menu-btn"
-            onClick={() => {
-              setMenuStatus(!menuStatus);
-              toggleMenu();
-            }}
-          >
-            <p className="btn-box-p group-hover:text-white">06</p>
-            <h4 className="btn-box-h4">
-            Contact Us
-            </h4>
-            <span className="btn-box-svg group-hover:opacity-100">
-              <ArrowSVG />
-            </span>
-          </button>
+          <Link href="/contact-us">
+            <a className="anchor group menu-btn flex items-center">
+              <p className="btn-box-p group-hover:text-white">06</p>
+              <h4 className="btn-box-h4">Contact Us</h4>
+              <span className="btn-box-svg group-hover:opacity-100">
+                <ArrowSVG />
+              </span>
+            </a>
+          </Link>
 
           {/* <div className="w-full absolute bottom-0 left-0 text-xs font-secondary font-light tracking-wider flex justify-center items-end uppercase gap-5 text-white -mb-12">
             <a
@@ -481,20 +473,16 @@ const Header = ({ ...props }) => {
             </button>
           </li>
           <li className="mb-8">
-            <button
-              className="flex items-center text-left gap-8 text-2xl"
-              onClick={() => {
-                mobileScroll("#panel-8"), setMenuStatus(!menuStatus);
-                toggleMenu();
-              }}
-            >
-              <span className="text-primary orange-scale font-secondary font-light">
-                06
-              </span>
-              <span className="text-white font-primary">
-              Contact Us
-              </span>
-            </button>
+            <Link href="/contact-us">
+              <a className="flex items-center text-left gap-8 text-2xl">
+                <span className="text-primary orange-scale font-secondary font-light">
+                  06
+                </span>
+                <span className="text-white font-primary">
+                  Contact Us1
+                </span>
+              </a>
+            </Link>
           </li>
         </ul>
       </div>
