@@ -145,7 +145,7 @@ const Contact = () => {
               </div>
               <div className="grid lg:flex mt-0 xl:mt-4 2xl:mt-8">
                 <a
-                  href="mailto:cxltagency@gmail.com"
+                  href="mailto:info@CxLT.agency"
                   className="w-full flex items-center gap-2 font-secondary text-white text-xs xl:text-base lg:ml-14 2xl:ml-20"
                 >
                   <svg fill="#04E100" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" width="25px">
@@ -153,7 +153,7 @@ const Contact = () => {
                     <g id="SVGRepo_iconCarrier"> <path d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z" fill-rule="evenodd"></path> </g>
                   </svg>
                   <span className="font-secondary text-white text-xs 2xl:text-base ml-8 lg:ml-0">
-                    Email: cxltagency@gmail.com
+                    Email: info@CxLT.agency
                   </span>
                 </a>
                 
