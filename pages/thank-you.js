@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
+import Link from "next/link";
 const ThankYouPage = () => {
   return (
        <div>
@@ -62,14 +63,20 @@ const ThankYouPage = () => {
                     Thank you for submitting form, we will be in touch shortly
                   </p>
                   <div  className="text-center">
-                    <a type="button" class="uppercase font-primary text-primary border-white px-6 py-2.5 "
+                  <Link
+                      href={{
+                        pathname: "/",
+                      }}
+                    >
+                    <button type="button" class="uppercase font-primary text-primary border-white px-6 py-2.5 "
                       style={{
                         "opacity": "1",
                         "width": "auto",
                       }}
                     >
                         <p>Back To Homepage</p>
-                    </a>
+                    </button>
+                    </Link>
                   </div>
               </div>
               

@@ -108,6 +108,7 @@ const ContactUsPage = () => {
                 <div className="flex justify-between border-t border-white pt-6">
                 <p className="mb-6 text-white font-primary">© 2025 CXLT</p>
                 <div className="space-x-4">
+                    
                 <a
                     href="https://www.instagram.com/cxlt.agency/"
                     target="_blank"
