@@ -66,7 +66,6 @@ const ContactUsPage = () => {
                 </p>
                 <div className="mt-4">
                 <h2 className="text-2xl font-bold text-white font-primary font-primary">Join the CxLT.</h2>
-                <p className="text-xl font-bold text-white font-primary">CxLT</p>
                 </div>
             </div>
             
