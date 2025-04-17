@@ -196,7 +196,7 @@ const Header = ({ ...props }) => {
               }}
             >
               <button
-                className={`bg-[#1b2934] p-4 rounded-full text-white opacity-100 nav-icon btn-scale ${props.headerStatus && "opacity-100"
+                className={`bg-[#1b2934] p-4 rounded-full text-white opacity-100 nav-icon btn-menu-opener btn-scale ${props.headerStatus && "opacity-100"
                   } duration-300 ease-in-out`}
               >
                 <svg
