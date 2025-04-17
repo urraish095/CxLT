@@ -8,7 +8,7 @@ const ContactUsPage = () => {
        <div>
         <div class="fixed w-full z-40 px-6 lg:px-10 xl:px-20 py-4 lg:py-8 bg-secondary/80 backdrop-blur-sm lg:backdrop-blur-none lg:bg-transparent border-b border-white/10 lg:border-none undefined">
             <div class="flex justify-between items-center">
-                <Link href="/">
+                <Link href="/" passHref>
                     <svg xmlns="http://www.w3.org/2000/svg" width="150" height="68.315" viewBox="0 0 201.705 68.315">
                         <g id="Group_76" data-name="Group 76" transform="translate(-451 -93)">
                         <g id="Group_73" data-name="Group 73" transform="translate(451 93)">
@@ -40,7 +40,7 @@ const ContactUsPage = () => {
                         </g>
                     </svg>
                 </Link>
-                <Link href="/">
+                <Link href="/" passHref>
                 <a class="lg:bg-[#1b2934] p-4 rounded-full text-white opacity-100 nav-icon btn-scale false duration-300 ease-in-out"
                 >
                     <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
