@@ -58,7 +58,7 @@ const ContactUsPage = () => {
             </div>
         <div className="min-h-screen flex flex-col md:flex-row">
             {/* Left Section - Pink */}
-            <div className="w-full lg:h-screen grid lg:grid-rows-6 bg-pink  p-10 lg:pt-24 xl:pt-32 2xl:pt-40 lg:pb-14 2xl:pb-0 lg:pl-32 xl:pl-48 2xl:pl-60 lg:pr-20 2xl:pr-28 overflow-hidden">
+            <div className="w-full lg:h-screen grid lg:grid-rows-6 bg-pink p-10 pt-40 lg:pt-24 xl:pt-32 2xl:pt-40 lg:pb-14 2xl:pb-0 lg:pl-32 xl:pl-48 2xl:pl-60 lg:pr-20 2xl:pr-28 overflow-hidden">
             <div>
                 <h1 className="text-5xl font-bold mb-6 text-white font-primary">Let&apos;s Make It Happen</h1>
                 <p className="text-lg mb-4 text-white font-secondary">
@@ -70,8 +70,8 @@ const ContactUsPage = () => {
                 </div>
             </div>
             
-            <div className="mt-40 items-center">
-                <div className="flex items-center mb-4 mt-20 gap-8">
+            <div className="pt-10 xl:pt-32  items-center">
+                <div className="flex items-center mb-4 xl:mt-20 gap-8">
                 <div className="flex items-center mb-4">
                     <div className="bg-green-400 rounded-full p-1 mr-3">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
