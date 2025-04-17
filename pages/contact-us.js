@@ -1,6 +1,7 @@
 import React from "react";
 import ContactForm from "../components/sections/form";
 import Layout from "../components/layout/Layout";
+import Link from "next/link";
 import Image from "next/image";
 
 const ContactUsPage = () => {
@@ -40,6 +41,11 @@ const ContactUsPage = () => {
                         </g>
                     </svg>
                 </a>
+                <Link
+                href={{
+                    pathname: "/",
+                }}
+                >
                 <a class="lg:bg-[#1b2934] p-4 rounded-full text-white opacity-100 nav-icon btn-scale false duration-300 ease-in-out"
                 href="/"
                 >
@@ -53,6 +59,8 @@ const ContactUsPage = () => {
 
                     </svg>
                 </a>
+                
+              </Link>
             </div>
             </div>
         <div className="min-h-screen flex flex-col md:flex-row">
@@ -111,6 +119,11 @@ const ContactUsPage = () => {
                     
                 <ul className="flex gap-4 mt-2 xl:mt-0">
                                   <li>
+                                  <Link
+                                    href={{
+                                        pathname: "https://www.youtube.com/@CxLTAgency",
+                                    }}
+                                    >
                                     <a
                                       href="https://www.instagram.com/cxlt.agency/"
                                       target="_blank"
@@ -124,8 +137,14 @@ const ContactUsPage = () => {
                                     alt=""
                                   />
                                     </a>
+                                    </Link>
                                   </li>
                                   <li>
+                                  <Link
+                                    href={{
+                                        pathname: "https://www.youtube.com/@CxLTAgency",
+                                    }}
+                                    >
                                     <a
                                       href="https://www.facebook.com/cxlt.agency"
                                       target="_blank"
@@ -139,8 +158,14 @@ const ContactUsPage = () => {
                                     alt=""
                                   />
                                     </a>
+                                    </Link>
                                   </li>
                                   <li>
+                                  <Link
+                                    href={{
+                                        pathname: "https://www.youtube.com/@CxLTAgency",
+                                    }}
+                                    >
                                     <a
                                       href="https://www.linkedin.com/company/cxlt-agency/"
                                       target="_blank"
@@ -155,10 +180,15 @@ const ContactUsPage = () => {
                                   />
                                       
                                     </a>
+                                    </Link>
                                   </li>
                                   <li>
+                                  <Link
+                                    href={{
+                                        pathname: "https://www.youtube.com/@CxLTAgency",
+                                    }}
+                                    >
                                     <a
-                                      href="https://www.youtube.com/@CxLTAgency"
                                       target="_blank"
                                       rel="noreferrer"
                                       className="href-scale"
@@ -170,6 +200,7 @@ const ContactUsPage = () => {
                                     alt=""
                                   />
                                     </a>
+                                    </Link>
                                   </li>
                         </ul>
                 </div>

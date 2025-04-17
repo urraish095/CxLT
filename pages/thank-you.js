@@ -39,6 +39,11 @@ const ThankYouPage = () => {
                         </g>
                     </svg>
                 </a>
+                <Link
+                href={{
+                    pathname: "/",
+                }}
+                >
                 <a class="lg:bg-[#1b2934] p-4 rounded-full text-white opacity-100 nav-icon btn-scale false duration-300 ease-in-out"
                 href="/"
                 >
@@ -52,6 +57,8 @@ const ThankYouPage = () => {
 
                     </svg>
                 </a>
+                
+              </Link>
             </div>
             </div>
           <div className="min-h-screen flex flex-col md:flex-row">
