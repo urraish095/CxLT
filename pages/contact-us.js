@@ -1,6 +1,6 @@
 import React from "react";
 import ContactForm from "../components/sections/form";
-import Layout from "../components/layout/Layout";
+import Link from "next/link";
 import Image from "next/image";
 
 const ContactUsPage = () => {
@@ -8,7 +8,7 @@ const ContactUsPage = () => {
        <div>
         <div class="fixed w-full z-40 px-6 lg:px-10 xl:px-20 py-4 lg:py-8 bg-secondary/80 backdrop-blur-sm lg:backdrop-blur-none lg:bg-transparent border-b border-white/10 lg:border-none undefined">
             <div class="flex justify-between items-center">
-                <a href="/">
+                <Link href="/">
                     <svg xmlns="http://www.w3.org/2000/svg" width="150" height="68.315" viewBox="0 0 201.705 68.315">
                         <g id="Group_76" data-name="Group 76" transform="translate(-451 -93)">
                         <g id="Group_73" data-name="Group 73" transform="translate(451 93)">
@@ -39,9 +39,9 @@ const ContactUsPage = () => {
                         </g>
                         </g>
                     </svg>
-                </a>
+                </Link>
+                <Link href="/">
                 <a class="lg:bg-[#1b2934] p-4 rounded-full text-white opacity-100 nav-icon btn-scale false duration-300 ease-in-out"
-                href="/"
                 >
                     <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
 
@@ -53,6 +53,7 @@ const ContactUsPage = () => {
 
                     </svg>
                 </a>
+                </Link>
             </div>
             </div>
         <div className="min-h-screen flex flex-col md:flex-row">
@@ -113,49 +114,53 @@ const ContactUsPage = () => {
                     target="_blank"
                     rel="noreferrer"
                     className="href-scale"
-                    />
+                    >
                     <Image
                     src={"/img/instagram.png"}
                     height={30}
                     width={30}
                     alt=""
                 />
+                </a>
                 <a
                     href="https://www.facebook.com/cxlt.agency"
                     target="_blank"
                     rel="noreferrer"
                     className="href-scale"
-                    />
+                    >
                     <Image
                     src={"/img/facebook.png"}
                     height={30}
                     width={30}
                     alt=""
                 />
+                </a>
                 <a
                     href="https://www.linkedin.com/company/cxlt-agency/"
                     target="_blank"
                     rel="noreferrer"
                     className="href-scale"
-                    />
+                    >
                     <Image
                     src={"/img/linkedin.png"}
                     height={30}
                     width={30}
                     alt=""
                 />
+                </a>
                 <a
                     href="https://www.youtube.com/@CxLTAgency"
                     target="_blank"
                     rel="noreferrer"
                     className="href-scale"
-                    />
+                    >
                     <Image
                     src={"/img/youtube.png"}
                     height={30}
                     width={30}
                     alt=""
                 />
+                </a>
                 </div>
                 </div>
             </div>

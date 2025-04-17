@@ -1,8 +1,10 @@
 import { useState } from 'react';
+import { useRouter } from 'next/router'; // Import Next.js router
 
 export default function ContactForm() {
     const [loading, setLoading] = useState(false);
     const [successMessage, setSuccessMessage] = useState("");
+    const router = useRouter(); // Initialize router
 
     async function handleSubmit(event) {
         event.preventDefault();
@@ -31,17 +33,24 @@ export default function ContactForm() {
             if (result.success) {
                 event.target.reset();
                 setSuccessMessage("Your message has been sent successfully!");
-                fbq('track', 'Lead', {
-                    content_name: 'Contact Form Submission',
-                    content_category: 'Lead Generation',
-                    email: formData.email,
-                    name: formData.first_name + formData.last_name,
-                  });
-        
-                  fbq('track', 'Contact', {
-                    email: formData.email,
-                    name: formData.first_name + formData.last_name,
-                  });
+                
+                // Facebook pixel tracking
+                if (typeof fbq === 'function') {
+                    fbq('track', 'Lead', {
+                        content_name: 'Contact Form Submission',
+                        content_category: 'Lead Generation',
+                        email: object.email,
+                        name: object.first_name + object.last_name,
+                    });
+            
+                    fbq('track', 'Contact', {
+                        email: object.email,
+                        name: object.first_name + object.last_name,
+                    });
+                }
+                
+                // Redirect to thank you page
+                router.push('/thank-you');
             }
         } catch (error) {
             console.error("Error submitting form", error);
@@ -51,8 +60,8 @@ export default function ContactForm() {
     }
 
     return (
-        <div className="mx-auto mt-3  rounded-xl shadow-lg space-y-6" style={{ maxWidth: '100%' , width: '100%', overflowX: 'scroll' }}>
-            <h2 className="text-2xl font-bold  text-white">Contact Us</h2>
+        <div className="mx-auto mt-3 rounded-xl shadow-lg space-y-6" style={{ maxWidth: '100%' , width: '100%', overflowX: 'scroll' }}>
+            <h2 className="text-2xl font-bold text-white">Contact Us</h2>
 
             {successMessage && <p className="text-green-600">{successMessage}</p>}
 
@@ -72,7 +81,7 @@ export default function ContactForm() {
                     </div>
 
                     {/* Last Name */}
-                    <div  style={{ flexBasis: '50%' }}>
+                    <div style={{ flexBasis: '50%' }}>
                         <label className="block text-sm font-medium text-white mb-2 font-secondary">Last Name</label>
                         <input
                             type="text"
@@ -112,10 +121,8 @@ export default function ContactForm() {
                     </div>
                 </div>
 
-                
-
                 {/* Type a Question */}
-                <div className='my-4 '>
+                <div className='my-4'>
                     <label className="block text-sm font-medium text-white mb-2 font-secondary">Type a Question</label>
                     <textarea
                         name="question"
