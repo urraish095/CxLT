@@ -66,17 +66,17 @@ const ContactUsPage = () => {
             <div className="w-full lg:h-screen grid lg:grid-rows-6 bg-pink  p-10 lg:pt-24 xl:pt-32 2xl:pt-40 lg:pb-14 2xl:pb-0 lg:pl-32 xl:pl-48 2xl:pl-60 lg:pr-20 2xl:pr-28 overflow-hidden">
             <div>
                 <h1 className="text-5xl font-bold mb-6 text-white font-primary">Let's Make It Happen</h1>
-                <p className="text-lg mb-8 text-white font-secondary">
+                <p className="text-lg mb-4 text-white font-secondary">
                 No fluff, no wasted time—just results. Whether you need bold strategy, killer content, or cutting-edge tech, we're ready. Drop us a message and let's build something unstoppable.
                 </p>
-                <div className="mt-8">
+                <div className="mt-4">
                 <h2 className="text-2xl font-bold text-white font-primary font-primary">Join the CxLT.</h2>
                 <p className="text-xl font-bold text-white font-primary">CxLT</p>
                 </div>
             </div>
             
             <div className="mt-40 items-center">
-                <div className="flex items-center mb-4 gap-8">
+                <div className="flex items-center mb-4 mt-20 gap-8">
                 <div className="flex items-center mb-4">
                     <div className="bg-green-400 rounded-full p-1 mr-3">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

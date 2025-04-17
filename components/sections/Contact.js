@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="lg:grid lg:grid-cols-2 bg-primary orange-scale">
         <div
           id="c-section-1"
-          className="w-full lg:h-screen grid lg:grid-rows-6 bg-pink orange-scale p-10 lg:pt-24 xl:pt-32 2xl:pt-40 lg:pb-14 2xl:pb-20 lg:pl-32 xl:pl-48 2xl:pl-60 lg:pr-20 2xl:pr-28 overflow-hidden lg:translate-x-[85%]"
+          className="w-full lg:h-screen grid lg:grid-rows-6 bg-pink orange-scale p-10 lg:pt-24 xl:pt-32 2xl:pt-30 lg:pb-14 2xl:pb-20 lg:pl-32 xl:pl-48 2xl:pl-60 lg:pr-20 2xl:pr-28 overflow-hidden lg:translate-x-[85%]"
         >
           <div
             id="reveal-section-1"
@@ -29,13 +29,13 @@ const Contact = () => {
           </div>
           <div
             id="reveal-section-2"
-            className="lg:row-span-2 hidden sm:grid lg:flex lg:items-end lg:translate-x-full lg:opacity-0"
+            className="mt-0 lg:row-span-2 hidden sm:grid lg:flex  lg:translate-x-full lg:opacity-0"
           >
             <div className="w-full">
-              <h6 className="font-secondary mt-10 lg:mt-5 xl:mt-0 text-sm xl:text-base 2xl:text-lg text-white font-bold">
+              {/* <h6 className="font-secondary mt-10 lg:mt-5 xl:mt-0 text-sm xl:text-base 2xl:text-lg text-white font-bold">
               CxLT
-              </h6>
-              <div className="grid lg:flex mt-0 xl:mt-4 2xl:mt-8">
+              </h6> */}
+              <div className="grid lg:flex mt-0 xl:mt-4 2xl:mt-0">
                 <a href="#" className="w-full flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -143,7 +143,7 @@ const Contact = () => {
                 </a>
                 
               </div>
-              <div className="grid lg:flex mt-0 xl:mt-4 2xl:mt-8">
+              <div className="grid lg:flex mt-0 xl:mt-4 2xl:mt-4">
                 <a
                   href="mailto:info@CxLT.agency"
                   className="w-full flex items-center gap-2 font-secondary text-white text-xs xl:text-base lg:ml-14 2xl:ml-20"
