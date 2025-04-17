@@ -60,9 +60,9 @@ const ContactUsPage = () => {
             {/* Left Section - Pink */}
             <div className="w-full lg:h-screen grid lg:grid-rows-6 bg-pink  p-10 lg:pt-24 xl:pt-32 2xl:pt-40 lg:pb-14 2xl:pb-0 lg:pl-32 xl:pl-48 2xl:pl-60 lg:pr-20 2xl:pr-28 overflow-hidden">
             <div>
-                <h1 className="text-5xl font-bold mb-6 text-white font-primary">Let's Make It Happen</h1>
+                <h1 className="text-5xl font-bold mb-6 text-white font-primary">Let&apos;s Make It Happen</h1>
                 <p className="text-lg mb-4 text-white font-secondary">
-                No fluff, no wasted time—just results. Whether you need bold strategy, killer content, or cutting-edge tech, we're ready. Drop us a message and let's build something unstoppable.
+                No fluff, no wasted time—just results. Whether you need bold strategy, killer content, or cutting-edge tech, we&apos;re ready. Drop us a message and let&apos;s build something unstoppable.
                 </p>
                 <div className="mt-4">
                 <h2 className="text-2xl font-bold text-white font-primary font-primary">Join the CxLT.</h2>
