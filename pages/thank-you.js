@@ -2,7 +2,20 @@ import React from "react";
 import Link from "next/link";
 const ThankYouPage = () => {
     return (
-        <div>
+        <>
+        <Script id="gtm-head">
+            {`
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-MJ9GZMX4');
+        `}
+        </Script>
+        <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJ9GZMX4"
+          height="0" width="0" style={{ display: 'none', visibility: 'hidden' }} />
+      </noscript>
             <div class="fixed w-full z-40 px-6 lg:px-10 xl:px-20 py-4 lg:py-8 bg-secondary/80 backdrop-blur-sm lg:backdrop-blur-none lg:bg-transparent border-b border-white/10 lg:border-none undefined">
                 <div class="flex justify-between items-center">
                     <Link href="/" cursor="pointer">
@@ -80,7 +93,7 @@ const ThankYouPage = () => {
                 </div>
 
             </div>
-        </div>
+        </>
 
     );
 };
