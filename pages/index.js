@@ -21,7 +21,15 @@ const index = () => {
         <link rel="icon" href="/favicon.ico" />
         
       </Head>
-
+      <Script id="gtm-head">
+        {`
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MJ9GZMX4');
+      `}
+      </Script>
       <Script async src="https://www.facebook.com/tr?id=1303973084161841&ev=PageView&noscript=1"></Script>
       <Script id="meta">
         {`
@@ -61,9 +69,12 @@ const index = () => {
 
       {/* LinkedIn noscript fallback */}
       <noscript>
-        <img height="1" width="1" style={{display: 'none'}} alt="" src="https://px.ads.linkedin.com/collect/?pid=7009842&fmt=gif" />
+        <img height="1" width="1" style={{ display: 'none' }} alt="" src="https://px.ads.linkedin.com/collect/?pid=7009842&fmt=gif" />
       </noscript>
-
+      <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJ9GZMX4"
+          height="0" width="0" style={{ display: 'none', visibility: 'hidden' }} />
+      </noscript>
       <Layout preloaderDelay={2.5} preloader={true} pageTransition={false} bullets={true}>
         {/* Section 1 - Hero */}
         <section id="panel-1" className="scroll-panel">
