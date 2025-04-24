@@ -16,6 +16,10 @@ const ContactUsPage = () => {
             })(window,document,'script','dataLayer','GTM-MJ9GZMX4');
         `}
         </Script>
+        <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJ9GZMX4"
+          height="0" width="0" style={{ display: 'none', visibility: 'hidden' }} />
+      </noscript>
         <div class="fixed w-full z-40 px-6 lg:px-10 xl:px-20 py-4 lg:py-8 bg-secondary/80 backdrop-blur-sm lg:backdrop-blur-none lg:bg-transparent border-b border-white/10 lg:border-none undefined">
             <div class="flex justify-between items-center">
                 <Link href="/" passHref>
