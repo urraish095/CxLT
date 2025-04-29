@@ -2,6 +2,7 @@ import React from "react";
 import ContactForm from "../components/sections/form";
 import Link from "next/link";
 import Image from "next/image";
+import NewsletterSignup from "../components/sections/NewsletterSignup"; 
 
 import Script from 'next/script'
 const ContactUsPage = () => {
@@ -61,8 +62,8 @@ const ContactUsPage = () => {
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJ9GZMX4"
           height="0" width="0" style={{ display: 'none', visibility: 'hidden' }} />
       </noscript>
-        <div class="fixed w-full z-40 px-6 lg:px-10 xl:px-20 py-4 lg:py-8 bg-secondary/80 backdrop-blur-sm lg:backdrop-blur-none lg:bg-transparent border-b border-white/10 lg:border-none undefined">
-            <div class="flex justify-between items-center">
+        <div className="fixed w-full z-40 px-6 lg:px-10 xl:px-20 py-4 lg:py-8 bg-secondary/80 backdrop-blur-sm lg:backdrop-blur-none lg:bg-transparent border-b border-white/10 lg:border-none undefined">
+            <div className="flex justify-between items-center">
                 <Link href="/" passHref>
                     <svg xmlns="http://www.w3.org/2000/svg" width="150" height="68.315" viewBox="0 0 201.705 68.315">
                         <g id="Group_76" data-name="Group 76" transform="translate(-451 -93)">
@@ -96,7 +97,7 @@ const ContactUsPage = () => {
                     </svg>
                 </Link>
                 <Link href="/" passHref>
-                <a class="lg:bg-[#1b2934] p-4 rounded-full text-white opacity-100 nav-icon btn-scale false duration-300 ease-in-out"
+                <a className="lg:bg-[#1b2934] p-4 rounded-full text-white opacity-100 nav-icon btn-scale false duration-300 ease-in-out"
                 >
                     <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
 
@@ -159,9 +160,13 @@ const ContactUsPage = () => {
                     <p className="font-secondary text-white">Email: info@CxLT.agency</p>
                 </div>
                 
+                {/* Add Newsletter Component Here */}
+                <div className="mt-8">
+                  <NewsletterSignup />
+                </div>
                 
                 <div className="flex justify-between border-t border-white pt-6">
-                <p className="mb-6 text-white font-primary">© 2025 CXLT</p>
+                <p className="mb-6 text-white font-primary">© {new Date().getFullYear()} CXLT</p>
                 <div className="space-x-4">
                 <a
                     href="https://www.instagram.com/cxlt.agency/"
