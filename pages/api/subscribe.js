@@ -14,9 +14,9 @@ export default async function handler(req, res) {
 
   try {
     // Mailchimp configuration
-    const API_KEY = "d7ad474d6489302b33a72abf6a6bcfee-us8";
-    const DC = "us8"; // Data center from your API key
-    const LIST_ID = "b770274e07"; // Replace with your actual list ID
+    const API_KEY = process.env.MAILCHIMP_API_KEY; 
+    const DC = process.env.MAILCHIMP_DC;
+    const LIST_ID = process.env.MAILCHIMP_LIST_ID; // Replace with your actual list ID
 
     // Generate MD5 hash of lowercase email for Mailchimp
     const emailHash = createHash("md5").update(email.toLowerCase()).digest("hex");
