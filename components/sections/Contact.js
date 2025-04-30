@@ -19,10 +19,10 @@ const Contact = () => {
             className="lg:row-span-2 lg:translate-x-full lg:opacity-0"
           >
             <h2 className="font-primary text-5xl sm:text-2xl lg:text-3xl xl:text-4xl 2xl:text-3xl text-white">
-              Let's Make It <br className="hidden xl:block" /> Happen{" "}
+              Let&apos;s Make It <br className="hidden xl:block" /> Happen{" "}
             </h2>
             <p style={{ marginBottom: '0',marginTop: '10px'  }} className="font-secondary text-sm xl:text-base 2xl:text-md text-white my-4 2xl:my-6 leading-6 2xl:leading-8 font-medium opacity-90">
-            No fluff, no wasted time—just results. Whether you need bold strategy, killer content, or cutting-edge tech, we're ready. Drop us a message and let's build something unstoppable.
+            No fluff, no wasted time—just results. Whether you need bold strategy, killer content, or cutting-edge tech, we&apos;re ready. Drop us a message and let&apos;s build something unstoppable.
             </p>
             <h6 className="font-secondary text-sm xl:text-base 2xl:text-lg text-white font-bold">
               Join the CxLT.
