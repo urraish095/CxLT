@@ -41,7 +41,7 @@ const NewsletterSignup = () => {
   };
 
   return (
-    <div className="newsletter-container mt-8 lg:mt-6 border-t-2 border-white pt-6">
+    <div className="newsletter-container mt-8 lg:mt-6 border-t-2 border-white pt-6" style={{ background: '#e444ab', padding: '15px', marginTop: '20px'  }}>
       <h3 className="font-secondary text-white text-base xl:text-lg 2xl:text-xl font-bold mb-3">
         Join Our Newsletter
       </h3>
@@ -60,7 +60,7 @@ const NewsletterSignup = () => {
         <button
           type="submit"
           disabled={loading}
-          className="uppercase font-primary text-primary border-2 border-primary px-4 py-2 flex items-center group hover:bg-primary hover:text-white duration-300 ease-in-out"
+          className="uppercase font-primary text-white px-4 bg-pink py-2 flex items-center group  duration-300 ease-in-out"
         >
           {loading ? "Signing Up..." : "Sign Up"}
           <svg
@@ -76,8 +76,8 @@ const NewsletterSignup = () => {
               data-name="Rectangle 8"
               d="M1687.772,949.784l9.8,9.795-9.8,9.795"
               transform="translate(-1629.99 -949.077)"
-              fill="none"
-              stroke="#04FF00"
+              fill="#fff"
+              stroke="#fff"
               strokeWidth="2"
             />
             <line
@@ -87,7 +87,7 @@ const NewsletterSignup = () => {
               x1="40"
               transform="translate(0 10.233)"
               fill="none"
-              stroke="#04FF00"
+              stroke="#fff"
               strokeWidth="2"
             />
           </svg>

@@ -114,10 +114,10 @@ const ContactUsPage = () => {
             </div>
         <div className="min-h-screen flex flex-col md:flex-row">
             {/* Left Section - Pink */}
-            <div className="w-full lg:h-screen grid lg:grid-rows-6 bg-pink p-10 pt-40 lg:pt-24 xl:pt-32 2xl:pt-40 lg:pb-14 2xl:pb-0 lg:pl-32 xl:pl-48 2xl:pl-60 lg:pr-20 2xl:pr-28 overflow-hidden">
+            <div className="w-full lg:h-screen grid lg:grid-rows-5 bg-pink p-10 pt-40 lg:pt-24 xl:pt-32 2xl:pt-32 lg:pb-14 2xl:pb-0 lg:pl-32 xl:pl-48 2xl:pl-60 lg:pr-20 2xl:pr-28 overflow-hidden">
             <div>
                 <h1 className="text-5xl font-bold mb-6 text-white font-primary">Let&apos;s Make It Happen</h1>
-                <p className="text-lg mb-4 text-white font-secondary">
+                <p className="text-md mb-4 text-white font-secondary">
                 No fluff, no wasted time—just results. Whether you need bold strategy, killer content, or cutting-edge tech, we&apos;re ready. Drop us a message and let&apos;s build something unstoppable.
                 </p>
                 <div className="mt-4">
@@ -125,7 +125,7 @@ const ContactUsPage = () => {
                 </div>
             </div>
             
-            <div className="pt-10 xl:pt-32  items-center">
+            <div className="pt-0 xl:pt-14  items-center">
                 <div className="flex items-center mb-4 xl:mt-20 gap-8">
                 <div className="flex items-center mb-4">
                     <div className="bg-green-400 rounded-full p-1 mr-3">
@@ -141,27 +141,29 @@ const ContactUsPage = () => {
                     </div>
                 </div>
                 
-                <div className="flex items-center mb-4">
-                    <div className="bg-green-400 rounded-full p-1 mr-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                    </svg>
+                    <div>
+                        <div className="flex items-center mb-4">
+                            <div className="bg-green-400 rounded-full p-1 mr-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            </svg>
+                            </div>
+                            <p className=" text-white font-secondary">Tel: 01642 133 175</p>
+                        </div>
+                        <div className="flex items-center mb-0">
+                            <div className="bg-green-400 rounded-full p-1 mr-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            </div>
+                            <p className="font-secondary text-white">Email: info@CxLT.agency</p>
+                        </div>
                     </div>
-                    <p className=" text-white font-secondary">Tel: 01642 133 175</p>
                 </div>
                 
-                </div>
-                <div className="flex items-center mb-4">
-                    <div className="bg-green-400 rounded-full p-1 mr-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                    </svg>
-                    </div>
-                    <p className="font-secondary text-white">Email: info@CxLT.agency</p>
-                </div>
                 
                 {/* Add Newsletter Component Here */}
-                <div className="mt-8">
+                <div className="mt-4">
                   <NewsletterSignup />
                 </div>
                 
