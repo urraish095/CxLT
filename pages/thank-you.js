@@ -113,7 +113,7 @@ const ThankYouPage = () => {
             </div>
             <div className="min-h-screen flex flex-col md:flex-row">
                 {/* Left Section - Pink */}
-                <div className="w-full lg:h-screen grid lg:grid-rows-6 bg-pink  p-10 lg:pt-24 xl:pt-32 2xl:pt-80 lg:pb-14 2xl:pb-0 lg:pl-32 xl:pl-48 2xl:pl-60 lg:pr-20 2xl:pr-28 overflow-hidden">
+                <div className="w-full pt-40 lg:h-screen grid lg:grid-rows-6 bg-pink  p-10 lg:pt-24 xl:pt-32 2xl:pt-80 lg:pb-14 2xl:pb-0 lg:pl-32 xl:pl-48 2xl:pl-60 lg:pr-20 2xl:pr-28 overflow-hidden">
                     <div className="tetx-center">
                         <h1 className="  text-8xl font-bold mb-6 text-white font-secondary text-center">Thank You<span className="uppercase text-primary ml-3">!</span></h1>
                         <p className="text-lg mb-0 text-white font-secondary text-center">
