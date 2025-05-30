@@ -114,117 +114,169 @@ const ContentContactPage = () => {
             </div>
         <div className="min-h-screen flex flex-col md:flex-row">
             {/* Left Section - Pink */}
-            <div className="w-full lg:h-screen grid lg:grid-rows-5 bg-pink p-10 pt-40 lg:pt-24 xl:pt-32 2xl:pt-32 lg:pb-14 2xl:pb-0 lg:pl-32 xl:pl-48 2xl:pl-60 lg:pr-20 2xl:pr-28 overflow-hidden">
-            <div>
-                <h1 className="text-5xl font-bold mb-6 text-white font-primary">Let&apos;s Make It Happen</h1>
-                <p className="text-md mb-4 text-white font-secondary">
-                No fluff, no wasted time—just results. Whether you need bold strategy, killer content, or cutting-edge tech, we&apos;re ready. Drop us a message and let&apos;s build something unstoppable.
-                </p>
-                <div className="mt-4">
-                <h2 className="text-2xl font-bold text-white font-primary font-primary">Join the CxLT.</h2>
-                </div>
-            </div>
-            
-            <div className="pt-0 xl:pt-14  items-center">
-                <div className="flex items-center mb-4 xl:mt-20 gap-8">
-                <div className="flex items-center mb-4">
-                    <div className="bg-green-400 rounded-full p-1 mr-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                    </div>
-                    <div className="font-secondary text-white">
-                        <p>Central Point, 202-</p>
-                        <p>206 Linthorpe Rd,</p>
-                        <p>Middlesbrough TS1 3QW</p>
-                    </div>
-                </div>
-                
-                    <div>
-                        <div className="flex items-center mb-4">
-                            <div className="bg-green-400 rounded-full p-1 mr-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                            </svg>
+            <div className="w-full lg:h-screen grid lg:grid-rows-5 bg-pink p-10 pt-40 lg:pt-24 xl:pt-32 2xl:pt-32 lg:pb-14 2xl:pb-0 lg:pl-10 xl:pl-48 2xl:pl-10 lg:pr-10 2xl:pr-10 overflow-hidden" style={{ overflow: 'scroll' }}>
+                <div>
+                    <h1 className="text-4xl font-bold mb-6 text-white font-primary">Content That Moves People. And Moves the Needle. Tell Stories That Sell. Build a Brand People Remember.</h1>
+                    <p className="text-md mb-0 text-white font-secondary">
+                        Great content isn’t about filling space—it’s about making an impact. At CxLT, we help you create content that captures attention, builds trust, and drives action. Whether it’s a killer video, a sharp message, or a story that sticks, we turn your message into momentum.
+                    </p>
+
+                    <h1 className="text-3xl font-bold mb-2 text-white font-primary">Helping to grow your business</h1>
+                    <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">Attention That Lasts</h2>
+                    <p className="text-md mb-0 text-white font-secondary">
+                        We help you rise above the noise and hold your audience’s focus with content that connects.
+                    </p>
+                    <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">A Brand People Believe In</h2>
+                    <p className="text-md mb-0 text-white font-secondary">
+                        Your content should feel real, not rehearsed. We help you show up with authenticity and purpose.
+                    </p>
+                    <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">Sales Without the Hard Sell</h2>
+                    <p className="text-md mb-0 text-white font-secondary">
+                        Content that nurtures trust and drives decisions—without shouting or spamming.
+                    </p>
+                    <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">More Visibility, More Loyalty</h2>
+                    <p className="text-md mb-2 text-white font-secondary">
+                        Consistent, powerful storytelling that grows your reach and deepens brand loyalty.                    
+                    </p>
+                    <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">Confidence in Your Message</h2>
+                    <p className="text-md mb-2 text-white font-secondary">
+                        Say the right things in the right way, so your audience listens—and acts.
+                    </p>
+                    <h3 className="text-1xl font-bold mb-2 text-white font-primary">
+                        Forget generic content—your brand deserves more. At CxLT, we create high-impact content that stops the scroll, sparks conversations, and turns audiences into customers. Whether it’s storytelling that connects, videos that demand attention, or content strategies that fuel engagement, we craft work that doesn’t just look good—it drives real business growth. Join the CULT and make your brand unforgettable.
+                    </h3>
+                    <h3 className="text-2xl font-bold mb-2 text-white font-primary text-primary">
+                        Videography
+                    </h3>
+                    <h3 className="text-2xl font-bold mb-2 text-white font-primary text-primary">
+                        TV Production
+                    </h3>
+                    <h3 className="text-2xl font-bold mb-2 text-white font-primary text-primary">
+                        Content Creation
+                    </h3>
+                    <h3 className="text-2xl font-bold mb-2 text-white font-primary text-primary">
+                        Content Strategy
+                    </h3>
+                    <h3 className="text-2xl font-bold mb-2 text-white font-primary text-primary">
+                        Podcasts
+                    </h3>
+                    <h3 className="text-2xl font-bold mb-2 text-white font-primary text-primary">
+                        Copywriting & Messaging
+                    </h3>
+                    <div className="w-full">
+                        <div className="grid lg:flex mt-0 xl:mt-4 2xl:mt-0">
+                            <a href="#" className="flex items-center">
+                                <div className="bg-green-400 rounded-full p-1 mr-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="#000">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    </svg>
+                                </div>
+                                <p className="font-secondary text-white text-xs 2xl:text-base ml-0">
+                                    Central Point, 202-206 Linthorpe Rd, Middlesbrough TS1 3QW 
+                                </p>
+                            </a>
+                            <div>
+                            <a
+                            href="tel:01642 133 175"
+                            className="w-full flex items-center gap-2 font-secondary text-white text-xs xl:text-base lg:ml-5 2xl:ml-5 lg:mb-5 2xl:mb-5"
+                            >
+                            <div className="bg-green-400 rounded-full p-1 mr-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="#000">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                                </div>
+                            <span className="font-secondary text-white text-xs 2xl:text-base ml-8 lg:ml-0">
+                                Tel: 01642 133 175
+                            </span>
+                            </a>
+                            <a
+                            href="mailto:info@CxLT.agency"
+                            className="w-full flex items-center gap-2 font-secondary text-white text-xs xl:text-base lg:ml-5 2xl:ml-5"
+                            >
+                            <div className="bg-green-400 rounded-full p-1 mr-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="#000">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                                </div>
+                            <span className="font-secondary text-white text-xs 2xl:text-base ml-8 lg:ml-0">
+                                Email: info@CxLT.agency
+                            </span>
+                            </a>
                             </div>
-                            <p className=" text-white font-secondary">Tel: 01642 133 175</p>
                         </div>
-                        <div className="flex items-center mb-0">
-                            <div className="bg-green-400 rounded-full p-1 mr-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                            </svg>
-                            </div>
-                            <p className="font-secondary text-white">Email: info@CxLT.agency</p>
-                        </div>
-                    </div>
-                </div>
-                
-                
-                {/* Add Newsletter Component Here */}
-                <div className="mt-4">
-                  <NewsletterSignup />
-                </div>
-                
-                <div className="flex justify-between border-t border-white pt-6">
-                <p className="mb-6 text-white font-primary">© {new Date().getFullYear()} CXLT</p>
-                <div className="space-x-4">
-                <a
-                    href="https://www.instagram.com/cxlt.agency/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="href-scale"
+              
+              {/* Add Newsletter Component Here */}
+              <NewsletterSignup />
+              
+              <div className="border-t-2 border-white w-full mt-6 pt-3 hidden lg:grid xl:flex justify-between font-secondary text-white text-xs 2xl:text-sm uppercase">
+                <p>© {new Date().getFullYear()} CxLT</p>
+                 <ul className="flex gap-4 mt-2 xl:mt-0">
+                  <li>
+                    <a
+                      href="https://www.instagram.com/cxlt.agency/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="href-scale"
                     >
-                    <Image
+                      <Image
                     src={"/img/instagram.png"}
                     height={30}
                     width={30}
                     alt=""
-                />
-                </a>
-                <a
-                    href="https://www.facebook.com/cxlt.agency"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="href-scale"
+                  />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.facebook.com/cxlt.agency"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="href-scale"
                     >
-                    <Image
+                      <Image
                     src={"/img/facebook.png"}
                     height={30}
                     width={30}
                     alt=""
-                />
-                </a>
-                <a
-                    href="https://www.linkedin.com/company/cxlt-agency/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="href-scale"
+                  />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/company/cxlt-agency/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="href-scale"
                     >
-                    <Image
+                      <Image
                     src={"/img/linkedin.png"}
                     height={30}
                     width={30}
                     alt=""
-                />
-                </a>
-                <a
-                    href="https://www.youtube.com/@CxLTAgency"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="href-scale"
+                  />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/@CxLTAgency"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="href-scale"
                     >
-                    <Image
+                      <Image
                     src={"/img/youtube.png"}
                     height={30}
                     width={30}
                     alt=""
-                />
-                </a>
-                </div>
-                </div>
+                  />
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
+                </div>
+                
             </div>
             
             {/* Right Section - Dark */}
