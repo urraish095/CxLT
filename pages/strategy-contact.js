@@ -118,7 +118,7 @@ const StrategyContactPage = () => {
                 <div>
                     <h1 className="text-4xl font-bold mb-6 text-white font-primary">Your Growth. Engineered. Strategy That Fuels Scale, Profit & Market Domination.</h1>
                     <p className="text-md mb-0 text-white font-secondary">
-                        We don’t sell strategies—we build businesses. At CxLT, we work with you to sharpen your focus, clarify your direction, and unlock the growth you’ve been chasing. Every plan we create is designed to help you scale faster, make smarter decisions, and outpace the competition.
+                        We don’t sell strategies—we build businesses. At CxLT, we work with you to sharpen your focus, clarify your direction, and unlock the growth you&apos;ve been chasing. Every plan we create is designed to help you scale faster, make smarter decisions, and outpace the competition.
                     </p>
 
                     <h1 className="text-3xl font-bold mb-2 text-white font-primary">Helping to grow your business</h1>
@@ -132,7 +132,7 @@ const StrategyContactPage = () => {
                     </p>
                     <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">Stronger Market Position</h2>
                     <p className="text-md mb-0 text-white font-secondary">
-                        Whether you’re launching or repositioning, we help you stand out, compete harder, and lead with confidence.
+                        Whether you&apos;re launching or repositioning, we help you stand out, compete harder, and lead with confidence.
                     </p>
                     <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">Better Use of Resources</h2>
                     <p className="text-md mb-2 text-white font-secondary">
@@ -140,10 +140,10 @@ const StrategyContactPage = () => {
                     </p>
                     <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">Confidence to Execute</h2>
                     <p className="text-md mb-2 text-white font-secondary">
-                        With a clear plan and support behind it, you’ll feel confident making decisions that push your business forward.                    
+                        With a clear plan and support behind it, you&apos;ll feel confident making decisions that push your business forward.                    
                     </p>
                     <h3 className="text-1xl font-bold mb-2 text-white font-primary">
-                        Tired of guesswork? We craft data-driven strategies that accelerate business growth. Whether you're launching, scaling, or repositioning, our no-nonsense approach delivers results. No fluff, no vague promises—just a hard-hitting strategy designed to fuel real, measurable success. Join the CULT and grow with purpose.
+                        Tired of guesswork? We craft data-driven strategies that accelerate business growth. Whether you&apos;re launching, scaling, or repositioning, our no-nonsense approach delivers results. No fluff, no vague promises—just a hard-hitting strategy designed to fuel real, measurable success. Join the CULT and grow with purpose.
                     </h3>
                     <h3 className="text-2xl font-bold mb-2 text-white font-primary text-primary">
                         Consultancy

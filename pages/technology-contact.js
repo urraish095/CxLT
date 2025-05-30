@@ -118,10 +118,10 @@ const TechnologyContactPage = () => {
                 <div>
                     <h1 className="text-4xl font-bold mb-6 text-white font-primary">Bespoke Tech That Powers Growth & Automation.</h1>
                     <p className="text-md mb-0 text-white font-secondary">
-                        Technology isn’t just about looking modern - it’s about scaling smarter, automating efficiently, and creating seamless user experiences. At CxLT, we build digital solutions that don’t just function but actively drive revenue, efficiency, and engagement. 
+                        Technology isn&apos;t just about looking modern - it&apos;s about scaling smarter, automating efficiently, and creating seamless user experiences. At CxLT, we build digital solutions that don&apos;t just function but actively drive revenue, efficiency, and engagement. 
                     </p>
                     <p className="text-md mb-4 text-white font-secondary">
-                        We take a no-nonsense approach - no outdated systems, no unnecessary complexity, just innovative technology built for results. If you want your business to move faster, work smarter, and outpace the competition, you're in the right place.
+                        We take a no-nonsense approach - no outdated systems, no unnecessary complexity, just innovative technology built for results. If you want your business to move faster, work smarter, and outpace the competition, you&apos;re in the right place.
                     </p>
 
                     <h1 className="text-3xl font-bold mb-2 text-white font-primary">Helping to grow your business</h1>
@@ -129,20 +129,20 @@ const TechnologyContactPage = () => {
                     <p className="text-md mb-0 text-white font-secondary">
                         Every solution is crafted to deliver measurable impact - more revenue, better efficiency, and stronger customer relationships.                        
                     </p>
-                    <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">You’re in Control</h2>
+                    <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">You&apos;re in Control</h2>
                     <p className="text-md mb-0 text-white font-secondary">
-                        We make the tech work for you, not the other way around. No complex systems you can’t manage - just tools that drive progress.
+                        We make the tech work for you, not the other way around. No complex systems you can&apos;t manage - just tools that drive progress.
                     </p>
                     <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">Fast, Flexible, Future Proof</h2>
                     <p className="text-md mb-0 text-white font-secondary">
-                        You don’t just get something that works now - you get tech that grows with you and adapts as you evolve.
+                        You don&apos;t just get something that works now - you get tech that grows with you and adapts as you evolve.
                     </p>
-                    <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">We're Partners Not Just Providers</h2>
+                    <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">We&apos;re Partners Not Just Providers</h2>
                     <p className="text-md mb-2 text-white font-secondary">
                         We work closely with you to understand your goals and build the right tools to reach them.                        
                     </p>
                     <h3 className="text-1xl font-bold mb-2 text-white font-primary">
-                        Every solution we offer is built to solve real problems, save you time, and fuel serious growth. Here’s how we help you do more, faster.
+                        Every solution we offer is built to solve real problems, save you time, and fuel serious growth. Here&apos;s how we help you do more, faster.
                     </h3>
                     <h3 className="text-2xl font-bold mb-2 text-white font-primary text-primary">
                         Bespoke Software

@@ -118,13 +118,13 @@ const DesignContactPage = () => {
                 <div>
                     <h1 className="text-4xl font-bold mb-6 text-white font-primary">Content That Moves People. And Moves the Needle. Tell Stories That Sell. Build a Brand People Remember.</h1>
                     <p className="text-md mb-0 text-white font-secondary">
-                        Great content isn’t about filling space—it’s about making an impact. At CxLT, we help you create content that captures attention, builds trust, and drives action. Whether it’s a killer video, a sharp message, or a story that sticks, we turn your message into momentum.
+                        Great content isn&apos;t about filling space—it&apos;s about making an impact. At CxLT, we help you create content that captures attention, builds trust, and drives action. Whether it&apos;s a killer video, a sharp message, or a story that sticks, we turn your message into momentum.
                     </p>
 
                     <h1 className="text-3xl font-bold mb-2 text-white font-primary">Helping to grow your business</h1>
                     <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">Attention That Lasts</h2>
                     <p className="text-md mb-0 text-white font-secondary">
-                        We help you rise above the noise and hold your audience’s focus with content that connects.
+                        We help you rise above the noise and hold your audience&apos;s focus with content that connects.
                     </p>
                     <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">A Brand People Believe In</h2>
                     <p className="text-md mb-0 text-white font-secondary">
@@ -143,7 +143,7 @@ const DesignContactPage = () => {
                         Say the right things in the right way, so your audience listens—and acts.
                     </p>
                     <h3 className="text-1xl font-bold mb-2 text-white font-primary">
-                        Forget generic branding. We craft bold, unforgettable identities that make an impact. Whether you're launching, rebranding, or refining, CxLT ensures your brand isn't just seen—it’s remembered. No cookie-cutter design. Just powerful visuals that fuel engagement, loyalty, and conversions. Join the CULT and own your identity.
+                        Forget generic branding. We craft bold, unforgettable identities that make an impact. Whether you&apos;re launching, rebranding, or refining, CxLT ensures your brand isn&apos;t just seen—it&apos;s remembered. No cookie-cutter design. Just powerful visuals that fuel engagement, loyalty, and conversions. Join the CULT and own your identity.
                     </h3>
                     <h3 className="text-2xl font-bold mb-2 text-white font-primary text-primary">
                         Brand Strategy

@@ -124,26 +124,26 @@ const DigitalMarketingContactPage = () => {
                     <h1 className="text-3xl font-bold mb-2 text-white font-primary">Helping to grow your business</h1>
                     <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">More of the Right Traffic</h2>
                     <p className="text-md mb-0 text-white font-secondary">
-                        We get your brand in front of the people who matter—your ideal customers—so you're not just seen, you're remembered.
+                        We get your brand in front of the people who matter—your ideal customers—so you&apos;re not just seen, you&apos;re remembered.
                     </p>
                     <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">Leads That Convert</h2>
                     <p className="text-md mb-0 text-white font-secondary">
-                        It’s not just about clicks—it’s about customers. We build journeys that turn interest into action, and browsers into buyers.
+                        It&apos;s not just about clicks—it&apos;s about customers. We build journeys that turn interest into action, and browsers into buyers.
                     </p>
                     <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">ROI You Can See</h2>
                     <p className="text-md mb-0 text-white font-secondary">
-                        Every campaign is built around your goals and tracked with total transparency, so you know exactly what’s working.
+                        Every campaign is built around your goals and tracked with total transparency, so you know exactly what&apos;s working.
                     </p>
                     <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">Consistent Growth</h2>
                     <p className="text-md mb-2 text-white font-secondary">
-                        We optimise, scale, and adapt to make sure you’re always moving forward—never plateauing.                     
+                        We optimise, scale, and adapt to make sure you&apos;re always moving forward—never plateauing.                     
                     </p>
                     <h2 className="text-2xl font-bold mb-2 text-white mt-0 font-primary">Less Stress, More Focus</h2>
                     <p className="text-md mb-2 text-white font-secondary">
                         With us managing the strategy, targeting, and delivery, you can focus on running your business while the leads roll in.                   
                     </p>
                     <h3 className="text-1xl font-bold mb-2 text-white font-primary">
-                        Forget vanity metrics. We don’t do ‘likes’—we do leads, sales, and unstoppable growth. CxLT’s digital marketing strategies are designed to shatter the competition, captivate your audience, and turn engagement into revenue. No fluff. No gimmicks. Just laser-focused marketing that delivers real impact. Whether you're looking to dominate social, crush your SEO, or scale with paid ads, we've got the formula for success.
+                        Forget vanity metrics. We don&apos;t do &apos;likes&apos;—we do leads, sales, and unstoppable growth. CxLT&apos;s digital marketing strategies are designed to shatter the competition, captivate your audience, and turn engagement into revenue. No fluff. No gimmicks. Just laser-focused marketing that delivers real impact. Whether you&apos;re looking to dominate social, crush your SEO, or scale with paid ads, we&apos;ve got the formula for success.
                     </h3>
                     <h3 className="text-2xl font-bold mb-2 text-white font-primary text-primary">
                         Social Media Marketing
